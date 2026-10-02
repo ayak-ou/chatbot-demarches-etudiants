@@ -1,0 +1,1 @@
+# Envoie la question et les morceaux retrouvés au modèle de langage (LLM) via l'API pour générer la réponse

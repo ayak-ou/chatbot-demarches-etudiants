@@ -1,0 +1,1 @@
+# Consignes données au modèle : répondre à partir des fiches, citer la source, distinguer information officielle et conseil pratique 

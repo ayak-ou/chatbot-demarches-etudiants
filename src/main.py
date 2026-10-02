@@ -1,0 +1,1 @@
+# Point d'entrée : pose une question au chatbot en ligne de commande

@@ -1,0 +1,1 @@
+# Transforme les morceaux en vecteurs (embeddings) et les stocke dans une base vectorielle
