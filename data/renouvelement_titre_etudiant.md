@@ -44,7 +44,7 @@ Si vous avez des ressources suffisantes : attestation bancaire de solde crédite
 
 
 ## Délais
-- 4 mois  a 2 mois max avant l experation de l ancien titre de sejour 
+- Au plus tôt 4 mois et au plus tard 2 mois avant l'expiration de l'ancien titre de séjour. 
 
 ## Coût
 - Vous devez régler 150 € (100 € de taxe + 50 € de droit de timbre) par timbres fiscaux. 
