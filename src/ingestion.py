@@ -12,7 +12,7 @@ def decouper_fiche(chemin):
     morceaux, section, contenu = [], "Introduction", [] 
 
     for ligne in lignes[1:]:
-        if ligne startswith("##"):
+        if ligne.startswith("## "):
             if "\n" .join(contenu) .strip():
                 morceaux.append((section, "\n".join(contenu).strip()))
 
@@ -20,7 +20,7 @@ def decouper_fiche(chemin):
         else :
             contenu.append(ligne)
 
- if "\n".join(contenu).strip():
+    if "\n".join(contenu).strip():
         morceaux.append((section, "\n".join(contenu).strip()))
     return titre, morceaux
 
