@@ -8,13 +8,13 @@ RACINE = Path(__file__).parent.parent
 DB_DIR = RACINE / "chroma_db"
 
 def rechercher (question , n=3):
-    embed = embedding_functions.SentenceTransformerEmbeddingFuction(
+    embed = embedding_functions.SentenceTransformerEmbeddingFunction(
         model_name ="paraphrase-multilingual-MiniLM-L12-v2"
     )
 
     client = chromadb.PersistentClient(path = str(DB_DIR))
     collection = client.get_collection("fiches" , embedding_function = embed)
-    resultats = collection.query(quesry_texts=[question] , n_results=n)
+    resultats = collection.query(query_texts=[question] , n_results=n)
     return resultats["documents"][0] , resultats["metadatas"][0]
 
 if __name__ == "__main__":
